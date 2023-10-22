@@ -1,1 +1,1 @@
-# Coursera-HTML-CSS-JS-Assignment3
+# Repository for Coursera HTML CSS and JavaScript for Web Developers assignment 3
