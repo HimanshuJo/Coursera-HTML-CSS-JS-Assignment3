@@ -50,13 +50,25 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
     <script>
+
+        var temp=-1;
+
         custFun=function(){
-            console.log("here");
             var BackgroundColor="WHITE";
-            document.getElementById("ele1").style.backgroundColor=BackgroundColor;
-            document.getElementById("ele2").style.backgroundColor=BackgroundColor; 
-            document.getElementById("ele3").style.backgroundColor=BackgroundColor; 
+            let BackgroundColor2="BLACK"
+            if(temp==-1){
+                document.getElementById("ele1").style.backgroundColor=BackgroundColor;
+                document.getElementById("ele2").style.backgroundColor=BackgroundColor; 
+                document.getElementById("ele3").style.backgroundColor=BackgroundColor;
+                temp=0;
+            } else{
+                document.getElementById("ele1").style.backgroundColor=BackgroundColor2;
+                document.getElementById("ele2").style.backgroundColor=BackgroundColor2; 
+                document.getElementById("ele3").style.backgroundColor=BackgroundColor2;
+                temp=-1;
+            }
         }
+
     </script>
 </body>
 
